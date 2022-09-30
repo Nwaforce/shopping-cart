@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5rem;
+    font-family: 'Lucida Sans Regular', sans-serif;
+    /* width: 600px; */
+    background-color: rgb(167 173 235 / 64%);
+    font-size: 14px;
+    box-sizing: border-box;
+    color: hsl(228, 12%, 48%);
+}
+
+.flex-con {
+    width: 560px;
+    margin: 5rem auto;
+    display: flex;
+
+}
+
+.watch-details {
+    height: 381px;
+    border-radius: 0 10px 10px 0;
+    background-color: #eaf1f1;
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: hsl(228, 12%, 48%);
+}
+
+.img-tag {
+    object-fit: cover;
+    width: 50%;
+}
+
+.sp1 {
+    letter-spacing: 6px;
+    font-size: 15px;
+    font-family: emoji;
+}
+
+h2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    line-height: 42px;
+    margin: 8px 0;
+}
+
+.price-wrap {
+    display: flex;
+    margin: 3px 0;
+}
+
+.price-item1 {
+    font-size: 30px;
+    font-family: fantasy;
+    color: hsl(158, 36%, 37%);
+    margin-right: auto;
+    color: slateblue;
+}
+
+.price-item2 {
+    font-size: 20px;
+    text-decoration: line-through;
+    align-self: center;
+    margin-right: 9px;
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    padding: 0.8rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+
+}
